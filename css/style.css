@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+:root {
+    --color-title: #001A49;
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    width: 100%;
+}
+
+.menu {
+    flex: inherit;
+}
+
+.tamaño-slider {
+    height: 400px !important;
+}
+
+.img-slider {
+    filter: brightness(50%);
+}
+
+.carousel-caption {
+    bottom: 8.55rem;
+}
+
+.color-menu {
+     background-color: #EDC8C7 !important; 
+}
+
+.color-descrip-slider {
+    color: #EDC8C7 !important;
+}
+
+.logo_mision {
+    width: 100%;
+}
+
+.logo_vision {
+    width: 70px;
+}
+
+.logo_conten {
+    display: grid;
+    align-content: center;
+}
+
+.cont_vision {
+    background-color: #EDC8C7;
+    padding-top: 1%;
+}
+
+.text_motiva {
+    color: white;
+    position: relative;
+}
+
+.checks {
+    height: 1rem;
+}
+
+.servicios {
+    padding-top: 2rem;
+}
+
+.card {
+    width: 24rem;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.hand {
+    color: #945462;
+}
+
+.hand:hover {
+    color: white;
+}
+
+.servicios_iconos {
+    text-align: center;
+    background: #EDC8C7;
+}
+
+.text_header {
+    text-align: center;
+    font-weight: 400;
+}
+
+i {
+    font-style: normal;
+
+}
+
+
+.t-stroke {
+    color: transparent;
+    -moz-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 2px;
+    -moz-text-stroke-color: #000000;
+    -webkit-text-stroke-color: #ffffff;
+}
+
+h1 {
+    font-size: 2.4rem !important;
+}
+
+.card {
+    margin: 0px auto !important;
+}
+
+section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.btn_servi {
+    border-radius: inherit;
+    text-transform: uppercase;
+    margin: 37px auto 0;
+    padding: 11px 53px 11px 52px;
+    background-color: #EDC8C7;
+    color: #945462;
+    border-color: #EDC8C7 !important;
+}
+
+.caja_btn_servi {
+    text-align: center;
+}
+
+.btn_servi:hover {
+    background: #EDC8C7 !important;
+    color: white !important;
+}
+
+ul {
+    list-style: none !important;
+    line-height: 2.5;
+    padding-left: 3rem;
+}
+
+.li_servi {
+    position: relative;
+}
+
+.cont-check-servi {
+    position: absolute;
+}
+
+.cont-uni {
+    padding-top: 1%;
+    border: var(--bs-border-width) var(--bs-border-style) #EDC8C7 !important
+}
+
+.psic {
+    background-color: #EDC8C7;
+}
+
+.checks_servi {
+    width: 24px;
+    margin-left: -24px !important;
+    height: 1rem;
+    margin: -0.8em;
+    font-size: 0.8em;
+}
+
+.img_psic {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.cont_img_psci {
+    position: relative;
+    background-image: url('../img/psicologa2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.title_pisco {
+    font-weight: 700;
+    margin-top: 8rem;
+}
+
+.redes {
+    text-align: left;
+    display: inline-block;
+    line-height: 0 !important;
+    padding-left: 0 !important;
+}
+
+.redes>li {
+    margin-top: 1rem;
+    width: 40px !important;
+    float: left;
+    margin-right: 50px;
+    padding: 0 25px;
+    font-size: 36px;
+}
+
+nav {
+    text-align: center;
+}
+
+.cont_redes {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.fa-facebook {
+    color: #1877F2 !important;
+}
+
+.fa-instagram {
+    color: #E4405F !important
+}
+
+.fa-linkedin {
+    color: #0077B5 !important
+}
+
+.fa-whatsapp {
+    color: #25d366 !important
+}
+
+footer {
+    background-color: #945462;
+    color: white;
+    padding: 10px 0;
+}
+
+.derechos {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.carousel-fade {
+    margin-top: 4rem;
+}
+
+.show img {
+    transition: translate(-50%, -50%) scale(1);
+}
+
+
+footer {
+    font-weight: 100;
+}
+
+.fixed-top {
+    z-index: 10 !important;
+}
+
+.form-control {
+    border-radius: 0;
+    background-color: #945462;
+    color: #EDC8C7;
+    border: var(--bs-border-width) solid #edc8c752 !important;
+}
+
+.form-control:focus {
+    color: #ffffff !important;
+    background-color: #945462 !important;
+    border-color: #edc8c7 !important;
+    box-shadow: 0 0 0 0.25rem rgb(148 84 98 / 55%) !important;
+}
+
+#emailHelp {
+    color: rgba(255, 255, 255, 0.294);
+}
+
+.formulario {
+    margin-top: 2rem;
+}
+
+.form-select {
+    border-radius: 0;
+    background-color: #945462;
+    color: #EDC8C7;
+    border: var(--bs-border-width) solid #edc8c752 !important;
+}
+
+.form-select:focus {
+    color: #ffffff !important;
+    background-color: #945462 !important;
+    border-color: #edc8c7 !important;
+    box-shadow: 0 0 0 0.25rem rgb(148 84 98 / 55%) !important;
+}
+
+option:disabled {
+    color: #edc8c7 !important;
+}
+
+.btn-formulario {
+    border-radius: 0;
+}
+
+.tm_logo {
+    width: 100px;
+    margin-bottom: 1rem
+}
+
+.posicion_checks {
+    p {
+        padding: 1rem;   
+        border: var(--bs-border-width) var(--bs-border-style) #945462!important;
+    }
+}
+.posicion_checks:hover{
+    background-color: #edc8c7;
+    color: #945462;
+}
+
+.options_responisve{
+    margin-left: auto;
+    margin-right: inherit !important;
+}
+.navbar-toggler{
+    color: rgb(148 84 98);
+}
+
+.cont-par{
+    text-align: justify;
+    margin: 1rem;
+}
+
+.logo-msion{
+    margin-top: 3rem;
+}
+
+.text-mision{
+    position: absolute;
+    margin-top: -334px;
+    left: 32rem;
+    padding: 3rem;
+    background-color:  #edc8c7;
+}
+
+.cont-val{
+    position: relative;
+}
+
+.text-vision{
+    position: absolute;
+    margin-top: -300px;
+    left: 5rem;
+    padding: 3rem;
+    background-color: #edc8c7;
+}
+.btn-wsp{
+    position: sticky;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: white;
+    border-radius: 50px;
+    text-align: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    font-size: 2rem;
+    z-index: 100;
+    float: right !important;
+    transition: all 500ms ease;
+    
+}
+.btn-wsp:hover{
+    background-color: #25D366;
+    
+}
+.icon-wsp:hover{
+    color: white !important
+}
+.icon-wsp{
+    margin-left: 14px;
+}
+
+@media (max-width: 768px) {
+    .servicio_tall {
+        margin-top: 2rem;
+    }
+
+    .servicio_terap {
+        margin-top: 2rem;
+    }
+
+    .cont_logo_quien {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .mb-5 {
+        margin-bottom: 0rem !important;
+    }
+    
+    .salud{
+        margin-top: 2rem !important;
+    }
+    .text_motiva_con{
+        background-color: white;
+        display: flex;
+    }
+    .marge_tarjeta{
+        margin-top: 2rem;
+    }
+    .img_psic{
+        opacity: 0.2;
+        width: 50%;
+        position: relative;
+        display: block;
+        top: 0rem;
+    }
+    .title_pisco{
+        margin-top: 3rem;
+    }
+    .cont_img_psci{
+        position: relative;
+        display:none !important;
+    }
+    .img_fondo{
+        background-image: url('../img/psicologa_opacity.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .text-mision{
+        position: initial;
+        margin-top: 0px;
+        left: 32rem;
+        padding: 3rem;
+    }
+    .text-vision{
+        position: initial;
+        margin-top: 0px;
+        left: 5rem;
+        padding: 3rem;
+    }
+    section{
+        margin-top: 0%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .margen_letras {
+        margin-top: 8rem;
+    }
+    .cont_img_psci{
+        background-size: 115%;
+    }
+}
+
+@media (max-width: 2560px) {
+    .margen_letras {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .carousel-caption{
+        bottom: 11.55rem;
+    }
+    .text-mision{
+        padding: 1rem;
+    }
+    .text-vision{
+        padding: 1rem;
+    }
+    #cont_salud_mental{
+        padding: 0px;
+        width: 100% !important;
+    }
+    section{
+        margin-top: 0%;
+    }
+    .carousel-inner{
+        height: 14rem;
+    }
+    .img_port2{
+        width: 163% !important;
+    }
+    .img_port3{
+        width: 126% !important;
+    }
+}
