@@ -505,4 +505,8 @@ option:disabled {
     .img_port3{
         width: 126% !important;
     }
+    .redes>li {
+        width: 0px !important;
+        margin-right: 30px;
+    }
 }
