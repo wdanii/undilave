@@ -515,6 +515,11 @@ option:disabled {
         width: 100% !important;
         height: 50%;
     }
+    .img_port1{
+        height: 100%;
+        width: auto !important;
+        margin-left: -10rem;
+    }
     .redes>li {
         width: 0px !important;
         margin-right: 30px;
