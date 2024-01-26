@@ -398,6 +398,9 @@ option:disabled {
 .icon-wsp{
     margin-left: 14px;
 }
+.img_port1{
+    object-fit: cover;
+}
 .img_port2{
     height: 171%;
     object-fit: cover;
