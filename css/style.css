@@ -489,7 +489,7 @@ option:disabled {
 
 @media (max-width: 425px) {
     .carousel-caption{
-        bottom: 11.55rem;
+        bottom: 15.55rem;
     }
     .text-mision{
         padding: 1rem;
@@ -508,10 +508,12 @@ option:disabled {
         height: 14rem;
     }
     .img_port2{
-        width: 163% !important;
+        width: 145% !important;
+        height: 108%;
     }
     .img_port3{
-        width: 126% !important;
+        width: 100% !important;
+        height: 50%;
     }
     .redes>li {
         width: 0px !important;
