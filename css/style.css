@@ -24,7 +24,7 @@ body {
 }
 
 .tamaño-slider {
-    height: 400px !important;
+    height: 450px !important;
 }
 
 .img-slider {
@@ -397,6 +397,14 @@ option:disabled {
 }
 .icon-wsp{
     margin-left: 14px;
+}
+.img_port2{
+    height: 171%;
+    object-fit: cover;
+}
+.img_port3{
+    height: 171%;
+    object-fit: cover;
 }
 
 @media (max-width: 768px) {
