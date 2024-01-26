@@ -399,6 +399,7 @@ option:disabled {
     margin-left: 14px;
 }
 .img_port1{
+    height: 171%;
     object-fit: cover;
 }
 .img_port2{
