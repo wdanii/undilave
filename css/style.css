@@ -15,10 +15,6 @@ body {
     overflow: hidden;
 }
 
-.logo {
-    width: 100%;
-}
-
 .menu {
     flex: inherit;
 }
