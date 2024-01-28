@@ -255,7 +255,7 @@ footer a:hover {
 }
 
 .carousel-fade {
-    margin-top: 4rem;
+    margin-top: 3%;
 }
 
 .show img {
@@ -530,9 +530,12 @@ header .logo {
 }
  @media (min-width: 360px) {
     header .logo {
-    width: 30% !important;
-    height: auto;
-    float: left;
-    margin-left: 1rem 
-}
+        width: 30% !important;
+        height: auto;
+        float: left;
+        margin-left: 1rem 
+    }
+    .carousel-fade {
+        margin-top: 17%;
+    }
 
