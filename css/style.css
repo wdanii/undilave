@@ -533,7 +533,7 @@ header .logo {
         margin-right: 30px;
     }
 }
- @media (min-width: 425px) {
+ @media (min-width: 360px) {
     .carousel-fade {
         margin-top: 0px;
         }
