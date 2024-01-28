@@ -530,7 +530,7 @@ header .logo {
 }
  @media (min-width: 360px) {
     header .logo {
-    width: 50% !important;
+    width: 30% !important;
     height: auto;
     float: left;
     margin-left: 1rem 
