@@ -530,7 +530,8 @@ header .logo {
 }
  @media (min-width: 360px) {
     header .logo {
-    width: 100% !important;
-    height: 45px;
+    font-size: 30px;
+    width: 50% !important;
+    height: auto;
 }
 
