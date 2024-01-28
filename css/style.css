@@ -474,9 +474,6 @@ header .logo {
     section{
         margin-top: 0%;
     }
-     header{
-        display: none;
-    }
 }
 
 @media (max-width: 1440px) {
@@ -534,8 +531,10 @@ header .logo {
     }
 }
  @media (min-width: 360px) {
-    .carousel-fade {
-        margin-top: 0px;
-        }
-    } 
+    header .logo {
+    font-size: 30px;
+    text-transform: uppercase;
+    width: 100% !important;
+    height: 45px;
+}
 
