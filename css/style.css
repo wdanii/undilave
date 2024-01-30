@@ -437,7 +437,16 @@ option:disabled {
 .accordion-button:not(.collapsed){
     color: black !important;
 }
-
+#btnUp{
+    position: fixed;
+    bottom: 40px;
+    left: -100px ;
+    width: 30px;
+    transition: all 1s;
+    z-index: 1000;
+    border: 1px solid #edc8c7;
+    border-radius: 50%;
+}
 @media (max-width: 768px) {
     .servicio_tall {
         margin-top: 2rem;
