@@ -632,7 +632,7 @@ option:disabled {
 }
  @media (min-width: 360px) {
     header .logo {
-        width: 30% !important;
+        width: 35% !important;
         height: auto;
         float: left;
         margin-left: 1rem 
