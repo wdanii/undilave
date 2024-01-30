@@ -437,6 +437,7 @@ option:disabled {
 .accordion-button:not(.collapsed){
     color: black !important;
 }
+
 .go-top-container{
     position: fixed;
     bottom: 4rem;
@@ -481,9 +482,10 @@ option:disabled {
 
 .show i {
     transform: translate(-50%, -50%) scale(1);
-    color: #edc8c7;
-    background-color: #945462;
+    color: #945462;
     border-radius: 50%;
+    padding: 5%;
+    border: 1px solid #edc8c7;
 }
 
 @keyframes popup{
@@ -500,6 +502,7 @@ option:disabled {
         height: 1.6rem;
     }
 }
+
 @media (max-width: 768px) {
     .servicio_tall {
         margin-top: 2rem;
@@ -565,7 +568,7 @@ option:disabled {
     .carousel-fade {
         margin-top: 4rem;
     }
-     .carousel-caption{
+    .carousel-caption{
         bottom: 11.55rem;
     }
 }
@@ -623,6 +626,9 @@ option:disabled {
         width: 0px !important;
         margin-right: 30px;
     }
+    .go-top-button > i{
+        font-size: 1.7rem;
+    }
 }
  @media (min-width: 360px) {
     header .logo {
@@ -631,5 +637,4 @@ option:disabled {
         float: left;
         margin-left: 1rem 
     }
-
 }
