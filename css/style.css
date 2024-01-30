@@ -501,8 +501,11 @@ option:disabled {
         margin-top: 0%;
     }
     .carousel-fade {
-    margin-top: 4rem;
-}
+        margin-top: 4rem;
+    }
+     .carousel-caption{
+        bottom: 11.55rem;
+    }
 }
 
 @media (max-width: 1440px) {
