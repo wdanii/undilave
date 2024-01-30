@@ -437,15 +437,68 @@ option:disabled {
 .accordion-button:not(.collapsed){
     color: black !important;
 }
-#btnUp{
+.go-top-container{
     position: fixed;
-    bottom: 30px;
-    left: -100px ;
-    width: 30px;
-    transition: all 1s;
-    z-index: 1000;
-    border: 1px solid #edc8c7;
+    bottom: 4rem;
+    left: 4rem;
+    width: 1.6rem;
+    height: 1.6rem;
+    z-index: -1;
+}
+
+.go-top-button{
+    width: 0rem;
+    height: 0rem;
     border-radius: 50%;
+    cursor: pointer;
+    transition: .2s;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.go-top-button > i {
+    position: absolute;
+    font-size: 2.7rem;
+    top: 48%;
+    transform: translate(-50%, -50%) scale(0);
+    color: white;
+    transition: .2s;
+}
+
+.show{
+    z-index: 100;
+}
+
+.show .go-top-button{
+    animation: popup .3s ease-in-out;
+    width: 1.6rem;
+    height: 1.6rem;
+    z-index: 200;
+    margin-top: 176%;
+}
+
+.show i {
+    transform: translate(-50%, -50%) scale(1);
+    color: #edc8c7;
+    background-color: #945462;
+    border-radius: 50%;
+}
+
+@keyframes popup{
+    0%{
+        width: 0rem;
+        height: 0rem;
+    }
+    50%{
+        height: 4rem;
+        width: 4rem;
+    }
+    100%{
+        width: 1.6rem;
+        height: 1.6rem;
+    }
 }
 @media (max-width: 768px) {
     .servicio_tall {
