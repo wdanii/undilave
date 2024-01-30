@@ -1,14 +1,16 @@
-function irArriba(up){
-    window.addEventListener('scroll', () => {
-        var scroll = document.documentElement.scrollTop;
-        var btnUp = document.getElementById('btnUp');
-
-        if (scroll > up){
-            btnUp.style.left = 30 + "px";
-        }else{
-            btnUp.style.left = -100 + "px";
-        }
-    })
+window.onscroll = function(){
+    if(document.documentElement.scrollTop > 100){
+        document.querySelector('.go-top-container').classList.add('show');
+    }else{
+        document.querySelector('.go-top-container').classList.remove('show');
+    }
 }
 
-irArriba(300)
+document.querySelector('.go-top-container').addEventListener('click', () =>{
+    window.scrollTo(
+        {
+            top: 0,
+            behavior: 'smooth'
+        }
+    );
+});
