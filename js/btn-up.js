@@ -4,7 +4,7 @@ function irArriba(up){
         var btnUp = document.getElementById('btnUp');
 
         if (scroll > up){
-            btnUp.style.left = 40 + "px";
+            btnUp.style.left = 30 + "px";
         }else{
             btnUp.style.left = -100 + "px";
         }
