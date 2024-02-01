@@ -558,6 +558,11 @@ option:disabled {
         text-align: center;
         margin-bottom: 2rem;
     }
+    .mes{
+        width: 85%;
+        height: auto;
+        margin-bottom: 3rem;
+    }
 
     .mb-5 {
         margin-bottom: 0rem !important;
