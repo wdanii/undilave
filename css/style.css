@@ -239,15 +239,15 @@ nav {
 }
 
 .fa-instagram {
-    color: #E4405F !important
+    color: #E4405F !important;
 }
 
 .fa-linkedin {
-    color: #0077B5 !important
+    color: #0077B5 !important;
 }
 
 .fa-whatsapp {
-    color: #25d366 !important
+    color: #25d366;
 }
 
 footer {
@@ -390,7 +390,7 @@ option:disabled {
     line-height: 55px;
     bottom: 30px;
     right: 30px;
-    background: white;
+    background: #25D366;
     border-radius: 50px;
     text-align: 30px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
@@ -400,15 +400,9 @@ option:disabled {
     transition: all 500ms ease;
     
 }
-.btn-wsp:hover{
-    background-color: #25D366;
-    
-}
-.icon-wsp:hover{
-    color: white !important
-}
 .icon-wsp{
     margin-left: 14px;
+    color: white;
 }
 .img_port1{
     height: 171%;
@@ -488,6 +482,10 @@ option:disabled {
     border: 1px solid #edc8c7;
 }
 
+.card:hover{
+    box-shadow: 0 2px 15px #00000026;
+}
+
 @keyframes popup{
     0%{
         width: 0rem;
@@ -544,10 +542,6 @@ option:disabled {
     border: var(--bs-border-width) var(--bs-border-style) #945462!important;
     border-radius: 20px;
     
-}
-
-.card:hover{
-    box-shadow: 0 2px 15px #00000026;
 }
 @media (max-width: 768px) {
     .servicio_tall {
